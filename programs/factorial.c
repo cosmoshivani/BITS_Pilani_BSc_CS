@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int fact(int n);
+
 int fact(int n)
 { 
     int num = 1;
