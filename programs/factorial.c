@@ -1,23 +1,16 @@
 #include <stdio.h>
 
-int fact(int n);
-
 int fact(int n)
-{
-    
+{ 
     int num = 1;
-    
     while(n>0){
         num = num * n;
         n--;
     }
-
     return num;
 }
 
-
 int main()
-
 {
     printf("enter the value of n: ");
     int n;
